@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen;
+  }
+
+  .header-navbar-link {
+    @apply text-white text-lg transition hover:-translate-y-[2px] active:scale-95 p-4 py-6;
+  }
+}
